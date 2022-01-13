@@ -116,6 +116,9 @@
         left: 200px;
       }
     }
+    .wave2{
+      margin-top: 15px;
+    }
   }
   
   /* about-contents */
@@ -226,10 +229,11 @@
           }
           p{
             font-size: 15px;
+            animation-delay:.2s;
           }
         }
         .centence{
-          animation-delay: 1s;
+          animation-delay: .5s;
           p{
             font-size: 15px;
             line-height: 25px;
@@ -274,6 +278,8 @@
         margin-bottom: 40px;
         h2{
           font-size: 28px;
+          animation-delay: .1s;
+
         }
         p{
           font-size: 15px;

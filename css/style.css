@@ -607,16 +607,7 @@ header .header-wave {
   /*戻る、次へ矢印の位置*/
 }
 
-#design .container .intro .fade-up {
-  animation-name: fade-up-animation;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-  opacity: 0;
-}
-
 #design .container .intro .title {
-  opacity: 0;
   margin-bottom: 20px;
   letter-spacing: .2rem;
 }
@@ -625,11 +616,21 @@ header .header-wave {
   font-size: 20px;
   margin-bottom: 5px;
   line-height: 28px;
+  opacity: 0;
 }
 
 #design .container .intro .title p {
   color: #ccd5d9;
   font-size: 12px;
+  opacity: 0;
+}
+
+#design .container .intro .title .fade-up {
+  animation-name: fade-up-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
 }
 
 #design .container .intro .centence {
@@ -648,6 +649,14 @@ header .header-wave {
 
 #design .container .intro .centence .caution a {
   color: #e3c627;
+}
+
+#design .container .intro .fade-up {
+  animation-name: fade-up-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  opacity: 0;
 }
 
 #design .container .slider {
@@ -760,7 +769,6 @@ header .header-wave {
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   opacity: 0;
-  animation-duration: 2s;
 }
 
 #work .container .title h2 {
@@ -773,7 +781,7 @@ header .header-wave {
   font-size: 12px;
   margin-top: 5px;
   opacity: 0;
-  animation-delay: .5s;
+  animation-delay: .3s;
 }
 
 #work .container .work-step .fade-up {

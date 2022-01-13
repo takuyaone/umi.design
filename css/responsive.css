@@ -103,6 +103,9 @@
     top: 300px;
     left: 200px;
   }
+  #concept .wave2 {
+    margin-top: 15px;
+  }
   /* about-contents */
   #about-works {
     padding-top: 100px;
@@ -208,9 +211,10 @@
   }
   #design .container .intro .title p {
     font-size: 15px;
+    animation-delay: .2s;
   }
   #design .container .intro .centence {
-    animation-delay: 1s;
+    animation-delay: .5s;
   }
   #design .container .intro .centence p {
     font-size: 15px;
@@ -244,6 +248,7 @@
   }
   #work .container .title h2 {
     font-size: 28px;
+    animation-delay: .1s;
   }
   #work .container .title p {
     font-size: 15px;
