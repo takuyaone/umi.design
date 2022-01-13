@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" href="./css/responsive.min.css">
+  <title>umi.design</title>
+</head>
+<body>
+  <main>
+    <div class="head-menu">
+      <div class="openbtn1">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a class="header-contact" href="#">
+        <i class="far fa-envelope"></i>
+      </a>
+      <div class="header-logo">
+        <a href="#">umidesign</a>
+      </div>
+    </div>
+    <nav id="g-nav">
+      <div id="g-nav-list">
+        <ul class="page-link">
+          <li class="fade"><a href="#concept">コンセプト</a></li>
+          <li class="fade"><a href="#about-works">できること</a></li>
+          <li class="fade"><a href="#design">こんなデザイン</a></li>
+          <li class="fade"><a href="#create">制作のながれ</a></li>
+          <li class="fade"><a href="#blog">ブログ</a></li>
+          <li class="fade"><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="header-logo">
+        <img src="imgs/header/logo (4).png">
+        <p>Web・グラフィックデザイン</p>
+      </div>
+      <img class="header-img1" src="imgs/header/ico_01.png">
+      <img class="header-img2" src="imgs/header/ico_03.png">
+      <img class="header-img3" src="imgs/header/ico_02.png">
+      <canvas class="header-wave" id="waveCanvas"></canvas>
+    </header>
+    <section id="concept">
+      <div class="container">
+        <div class="content js-scroll-animation">
+          <h2>広く深いデザインをうみだす</h2>
+          <div class="centence">
+            <p>波も風も砂浜も同じものは無いように<br>
+              人も会社もひとつひとつ違います<br>
+              灯台のように道を照らし、<br>
+              同じ船に乗るように共に歩む<br>
+              そんなデザインをうみだしていきたいと<br>
+              わたしたちは考えています。
+            </p>
+          </div>
+        </div>
+        <img class="conimg img1" src="./imgs/header/ico_01 (1).png">
+        <img class="conimg img2" src="./imgs/header/ico_01 (1).png">
+        <img class="conimg img3" src="./imgs/header/ico_05.png">
+        <img class="conimg img4" src="./imgs/header/ico_05.png">
+      </div>
+      <canvas class="wave2" id="waveCanvas2"></canvas>
+    </section>
+    <section id="about-works">
+      <div class="container">
+        <div class="title js-scroll-animation">
+          <h2>私たちができること</h2>
+          <p>About Works</p>
+        </div>
+        <ul class="work-contents">
+          <li class="content">
+            <a href="#site" class="modal-open">
+              <div class="img-area site js-splash-animation">
+                <img src="./imgs/contents/ico_01 (2).png">
+              </div>
+              <p class="cate1 js-content-animation">Webサイト制作<br>運用・保守</p>
+            </a>
+          </li>
+          <li class="content">
+            <a href="#wordpress" class="modal-open">
+              <div class="img-area blog js-splash-animation">
+                <img src="./imgs/contents/ico_02 (2).png">
+              </div>
+              <p class="cate2 js-content-animation">WordPress・<br>ブログ構築</p>
+            </a>
+          </li>
+          <li class="content">
+            <a href="#writing" class="modal-open">
+              <div class="img-area writing js-splash-animation">
+                <img src="./imgs/contents/ico_03 (1).png">
+              </div>
+              <p class="cate3 js-content-animation">ライティング<br>ページ制作</p>
+            </a>
+          </li>
+          <li class="content">
+            <a href="#consul" class="modal-open">
+              <div class="img-area consul js-splash-animation">
+                <img src="./imgs/contents/ico_04 (1).png">
+              </div>
+              <p class="cate4 js-content-animation">Webコンサルティング<br>ディレクション</p>
+            </a>
+          </li>
+          <li class="content">
+            <a href="#poster" class="modal-open">
+              <div class="img-area poster js-splash-animation">
+                <img src="./imgs/contents/ico_05.png">
+              </div>
+              <p class="cate5 js-content-animation">チラシ・<br>ポスター制作</p>
+            </a>
+          </li>
+          <li class="content">
+            <a href="#pamphlet" class="modal-open">
+              <div class="img-area pamphlet js-splash-animation">
+                <img src="./imgs/contents/ico_06.png">
+              </div>
+              <p class="cate6 js-content-animation">パンフレット・<br>リーフレット制作</p>
+            </a>
+          </li>
+          <li class="content">
+            <a href="#dm" class="modal-open">
+              <div class="img-area dm js-splash-animation">
+                <img src="./imgs/contents/ico_07.png">
+              </div>
+              <p class="cate7 js-content-animation">DM・名刺</p>
+            </a>
+          </li>
+          <li class="content">
+            <a href="#illust" class="modal-open">
+              <div class="img-area illust js-splash-animation">
+                <img src="./imgs/contents/ico_08.png">
+              </div>
+              <p class="cate8 js-content-animation">イラスト制作</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    <canvas class="wave3" id="waveCanvas3"></canvas>
+    </section>
+    <div class="bg-white"></div>
+    <section id="design">
+      <div class="container">
+        <div class="intro">
+          <div class="title  js-scroll-animation">
+            <h2>例えばこんな<br>デザイン</h2>
+            <p>e.g.design</p>
+          </div>
+          <div class="centence  js-scroll-animation">
+            <p>umi.designはグラフィックデザインもWebデザインも制作できます。手に取る人のことを、画面の向こう側の人のことを第一に考える、そんなデザインが得意です。</p>
+            <p class="caution">※非公開実績もございます。お気軽に<a href="#">ご連絡ください。</a></p>
+          </div>
+        </div>
+        <ul class="slider">
+          <li>
+            <div class="img-area">
+              <img src="./imgs/designs/img_01.jpg">
+              <p>Web</p>
+            </div>
+            <p class="ttl">シンプルデザイン</p>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./imgs/designs/img_02.jpg">
+              <p>Web</p>
+            </div>
+            <p class="ttl">ごてごてデザイン</p>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./imgs/designs/img_03.jpg">
+              <p>Web</p>
+            </div>
+            <p class="ttl">企業向けデザイン</p>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./imgs/designs/img_04.jpg">
+              <p>Gra</p>
+            </div>
+            <p class="ttl">チラシ・ポスター</p>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./imgs/designs/img_05.jpg">
+              <p>Gra</p>
+            </div>
+            <p class="ttl">DM・名刺</p>
+          </li>
+          <li>
+            <div class="img-area">
+              <img src="./imgs/designs/img_06.jpg">
+              <p>Gra</p>
+            </div>
+            <p class="ttl">イラスト</p>
+          </li>
+          <!--/slider-->
+        </ul>
+      </div>
+    </section>
+    <section id="work">
+      <canvas class="wave4" id="waveCanvas4"></canvas>
+      <div class="container">
+        <div class="title">
+          <h2 class="js-scroll-animation">制作のながれ</h2>
+          <p class="js-scroll-animation">Work Flow</p>
+        </div>
+        <div class="work-step">
+          <div class="card step1">
+            <div class="step-ttl">
+              <img class="logo step-logo" src="./imgs/work/txt_01.png">
+              <img class="logo num-logo js-scroll-animation" src="./imgs/work/num_01.png">
+            </div>
+            <p class="text"><span class="text-span js-ScrollAnimationItem"></span></p>
+            <p class="centence js-scroll-animation">お客さまのご要望・お悩みをヒアリングし、umi.designができること、そして課題解決に向けた最善策をご提案いたします。</p>
+            <div class="arrow-bottom"></div>
+          </div>
+          <div class="arrow-left"></div>
+          <div class="card step2">
+            <div class="step-ttl">
+              <img class="logo step-logo" src="./imgs/work/txt_01.png">
+              <img class="logo num-logo js-scroll-animation" src="./imgs/work/num_02.png">
+            </div>
+            <p class="text"><span class="text-span js-ScrollAnimationItem"></span></p>
+            <p class="centence js-scroll-animation">ヒアリングしたコンセプト・構成を考え、デザインを制作いたします。Web制作であれば、UI/UXに考慮したコーディングをおこないます。</p>
+            <div class="arrow-bottom"></div>
+          </div>
+          <div class="arrow-left"></div>
+          <div class="card step3">
+            <div class="step-ttl">
+              <img class="logo step-logo" src="./imgs/work/txt_01.png">
+              <img class="logo num-logo js-scroll-animation" src="./imgs/work/num_03.png">
+            </div>
+            <p class="text"><span class="text-span js-ScrollAnimationItem"></span></p>
+            <p class="centence js-scroll-animation">より良いものへとブラッシュアップを行い、納品いたします。もちろん納品後の継続的な改善、数値計測やサイト運用も承ります。</p>
+          </div>
+        </div>
+      </div>
+      <canvas class="wave5" id="waveCanvas5"></canvas>
+    </section>
+    <section class="contact">
+      <div class="container">
+
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="title js-scroll-animation">
+          <h2>お問い合わせ</h2>
+          <p>Contact</p>
+        </div>
+        <div class="texts">
+          <div class="text">
+            <label>企業名*</label>
+            <input type="text">
+          </div>
+          <div class="flex">
+            <div class="text flex-text">
+              <label>お名前*</label>
+              <input type="text" />
+            </div>
+            <div class="text">
+              <label>TEL*</label>
+              <input type="text">
+            </div>
+          </div>
+          <div class="text">
+            <label>メールアドレス*</label>
+            <input type="text">
+          </div>
+          <div class="radio-box">
+            <div class="radio">
+              <input type="radio" name="radio"><label>お仕事のご相談</label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="radio"><label>お見積もり</label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="radio"><label>まずは話をしたい</label>
+            </div>
+          </div>
+          <div class="text">
+            <label>お問い合わせ内容を入力してください。*</label>
+            <textarea cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <a class="privacy" href="#">プライバシーポリシーを確認する</a>
+        <p class="require">*必須項目です</p>
+        <a class="contact-btn" href="#">問い合わせる</a>
+      </div>
+    </section>
+    <section id="blog">
+      <canvas class="wave6" id="waveCanvas6"></canvas>
+      <div class="container">
+        <div class="title js-scroll-animation">
+          <h2>ブログ</h2>
+          <p>Blog</p>
+        </div>
+        <div class="articles">
+          <div class="article">
+            <p class="date">2020.02.16</p>
+            <p class="content">[WordPress]検索結果に固定ページを表示しない方法<br>(投稿記事のみ)</p>
+          </div>
+          <div class="article">
+            <p class="date">2020.02.08</p>
+            <p class="content">WordPressで検索フォームをカスタマイズ<br>(Fontawesome)するときのメモ</p>
+          </div>
+          <div class="article">
+            <p class="date">2020.02.04</p>
+            <p class="content">WordPressの記事をJSONで取得して表示する</p>
+          </div>
+        </div>
+        <div class="btn">
+          <a class="list-btn" href="#">ブログ一覧</a>
+        </div>
+      </div>
+      <canvas class="wave7" id="waveCanvas7"></canvas>
+    </section>
+    <footer id="footer">
+      <div class="footer-in">
+        <div class="footer-img">
+          <img src="./imgs/header/logo (4).png">
+        </div>
+        <div class="copyright">
+          <small>&copy; 2019 umi.design</small>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <div id="site" class="modal">
+    <h2>Webサイト制作運用・保守</h2>
+    <p>ご要望、コンセプトをもとにWebサイトを企画・仕様を設計します。もちろんページ追加や運用修正なども承ります。ご予算にあった最善策をご提案します。</p>
+  </div>
+  <div id="wordpress" class="modal">
+    <h2>WordPress・ブログ構築</h2>
+    <p>ブログメディア、新着情報のCMS化など、WordPressを使用したシステム構築が可能です。修正や機能追加などもご相談ください。</p>
+  </div>
+  <div id="writing" class="modal">
+    <h2>ランディングページ制作</h2>
+    <p>広告用から、新商品の特設LPまで、グラフィックやアニメーションに疑った制作が可能です。</p>
+  </div>
+  <div id="consul" class="modal">
+    <h2>Webコンサルティング・<br>ディレクション</h2>
+    <p>現状サイトやリニューアルの相談、改善案、運用方法などお気軽にご相談ください。</p>
+  </div>
+  <div id="poster" class="modal">
+    <h2>チラシ・ポスター制作</h2>
+    <p>商業的なデザインから魅せるデザインまで幅広くご提案します。ヒアリングをしてコンセプトから構成まで考えます。</p>
+  </div>
+  <div id="pamphlet" class="modal">
+    <h2>パンフレット・リーフレット制作</h2>
+    <p>ちょっとした冊子から、会社案内などの企画、構成、デザインまでを制作します。お客様に合った魅せ方もご提案します。</p>
+  </div>
+  <div id="dm" class="modal">
+    <h2>DM・名刺</h2>
+    <p>個人の名刺や企業の名刺や、DMはイベント系～折り込み系まで幅広く取り扱っております。</p>
+  </div>
+  <div id="illust" class="modal">
+    <h2>イラスト制作</h2>
+    <p>単体イラストから、漫画まで制作可能です。イラストタッチもお客様に合わせてご提案します。</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+  <script src="js/wave.js"></script>
+  <script src="js/contents.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/drawar.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+</html>
