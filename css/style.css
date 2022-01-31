@@ -743,6 +743,10 @@ header .header-wave {
   transform: rotate(45deg);
 }
 
+#design .container .slick-list {
+  height: 80vh;
+}
+
 /* work */
 #work {
   background: linear-gradient(39deg, #e3c627 10%, #ead119 74%);
