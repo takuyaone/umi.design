@@ -194,6 +194,9 @@
     top: 815px;
   }
   /* design */
+  #design {
+    height: 40vh;
+  }
   #design .container {
     display: flex;
     justify-content: center;
